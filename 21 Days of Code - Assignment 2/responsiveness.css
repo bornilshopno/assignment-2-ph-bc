@@ -1,0 +1,121 @@
+/* Media Queries for Responsiveness */
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    * {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .hero-section {
+       flex-direction: column;}
+
+
+       .hero-left{
+        width:100%;}
+
+        .hero-right{
+            width:100%;
+        }
+ 
+     .shop-detail img{
+        padding:0px;
+        width:25%; height:25%}
+
+        .product-cards{
+           grid-template-columns: 100%;
+           grid-template-rows: auto;
+            text-align: center;
+        }
+        .card1{
+            width:100%;
+        }
+
+        .card2{
+            width:100%;
+        }
+
+        .card3{
+            width:100%;
+        }
+
+        .card4{
+            width:100%;
+        }
+        .card5{
+            width:100%;
+        }
+        .card6{
+            width:100%;
+        }
+
+        .service-menu{
+            flex-direction: column;
+            gap:10px;
+                  }
+
+                  .qualityfullfood{
+                    width:100%;              
+                }
+                .healthyfood{
+                    width:100%;  
+                    
+                }
+                .delivery{
+                    width:100%;  
+                }
+                .service-section img{
+             width:25%; height:25%;
+                }
+
+                .service-section h1{
+                    font-size:20px;}
+                    .review{
+                        flex-direction: column;
+                    }
+                    .client-review{
+                        width:100%;
+                    }
+                    .reviewed-item{
+                        width:100%}
+                
+                    .subscription{
+                        flex-direction: column;
+                    }
+                    .subscription-detail{
+                        width:100%;
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: center;
+                       align-items: center;
+                       margin-bottom: 20px;
+                    }
+                    
+                .burger-image{width:100%;}
+                .footer{flex-direction: column};
+                .logo-icons{
+                    width:100%;
+                }
+                .logo-icons h2{
+                    width:100%}
+                
+                .icons i{
+                    padding:2px;
+                    background-color: var(--white);
+                 border:none;
+                 }
+                 .icons{
+                     display:flex;
+                 }
+                .schedule{
+                    width:100%;}
+               
+                    .links{
+                        width:100%;}
+                  
+                        .contact-us{
+                            width:100%; }
+                         
+
+
+
+       }
+
